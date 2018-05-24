@@ -6,6 +6,7 @@
   </head>
   <body>
     <% @recipes.each do |recipe| %>
+    <%= binding.pry %>
     <h2> <%= @recipe.name %> </h2>
     <% end  %>
   </body>
