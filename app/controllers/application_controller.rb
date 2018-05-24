@@ -8,6 +8,10 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/recipies/new' do
-    erb :new 
+    erb :new
+  end
+
+  post '/recipies/new' do
+
   end
 end
