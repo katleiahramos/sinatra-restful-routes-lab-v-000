@@ -3,7 +3,9 @@ class ApplicationController < Sinatra::Base
     set :public_folder, 'public'
     set :views, 'app/views'
   end
+  
   get '/recipes' do
+    binding.pry
     @recipes = Recipe.all
     erb :index
   end
