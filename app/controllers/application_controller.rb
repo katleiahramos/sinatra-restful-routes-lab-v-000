@@ -12,6 +12,6 @@ class ApplicationController < Sinatra::Base
   end
 
   post '/recipes/new' do
-
+    binding.pry
   end
 end
